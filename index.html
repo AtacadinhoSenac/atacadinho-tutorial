@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atacadinho Tutorial</title>
+
+  <!-- css link -->
+  <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="sidebar">
+      <div class="header">
+        <h1>Tutoriais</h1>
+        <p>Aprenda a usar o programa</p>
+      </div>
+
+      <div class="accordion">
+        <button class="accordion-btn">Playlist de Vídeos</button>
+        <div class="accordion-content">
+          <div class="playlist">
+            <!-- Alteração dos vídeos -->
+            <div class="playlist-item active" data-video="LDmqsFMBdQU" data-title="Introdução ao Programa"
+              data-description="Neste vídeo você aprenderá os conceitos básicos do programa, incluindo interface principal e funcionalidades essenciais.">
+              Introdução ao Programa
+            </div>
+
+            <div class="playlist-item" data-video="1fK49SkP0CQ" data-title="Configurações Iniciais"
+              data-description="Guia completo para configuração inicial do software, ajustes de preferências e personalização do ambiente de trabalho.">
+              Configurações Iniciais
+            </div>
+
+            <div class="playlist-item" data-video="-liwWqWHGfw" data-title="Funcionalidades Avançadas"
+              data-description="Domine as ferramentas avançadas do programa com técnicas profissionais e atalhos de produtividade.">
+              Funcionalidades Avançadas
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <div class="video-container">
+        <!-- Alteração do iframe para o vídeo de introdução -->
+        <iframe id="videoPlayer" src="https://www.youtube.com/embed/LDmqsFMBdQU" frameborder="0"
+          allowfullscreen></iframe>
+      </div>
+      <div class="video-info">
+        <h2 id="videoTitle">Introdução ao Programa</h2>
+        <p id="videoDescription" class="description">Neste vídeo você aprenderá os conceitos básicos do programa,
+          incluindo interface principal e funcionalidades essenciais.</p>
+      </div>
+    </main>
+  </div>
+
+  <div class="doc-button">
+    <div class="doc-icon">?</div>
+    <div class="doc-text">Documentação</div>
+  </div>
+
+  <!-- script link -->
+  <script src="./src/js/script.js"></script>
+</body>
+
+</html>
