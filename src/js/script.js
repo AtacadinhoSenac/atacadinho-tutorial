@@ -26,5 +26,5 @@ document.querySelectorAll('.playlist-item').forEach(item => {
 
 // Controle do Botão de Documentação
 document.querySelector('.doc-button').addEventListener('click', () => {
-  window.open('URL_DA_DOCUMENTACAO', '_blank');
+  window.open('https://drive.google.com/file/d/1P9QCG2ak9D7NiiR22D_lCdx8ZLFjoerC/view?pli=1', '_blank');
 });
